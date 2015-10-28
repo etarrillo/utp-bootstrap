@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Meta viewport para que detecte los dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Carga de archivos CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	
+	<!-- Creo una pequeña linea de estilos para mejorar vizualmente nuestra maquetación -->
+	<style>.row>div{outline:1px solid gray;}</style>
+	
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Hola mundo!</h1>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h2>Así utilizamos las clases para colocar código</h2>
+			<p><code>Esta parte va a ser código</code> y esta parte <kbd>no será código</kbd></p>
+		</div>
+
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="cod-md-12">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Curso</th>
+						<th>Codigo</th>
+						<th>Alumnos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Diseño Web</td>
+						<td>0123041351</td>
+						<td>Candiotti</td>
+					</tr>
+					<tr>
+						<td>Diseño Web</td>
+						<td>0123041351</td>
+						<td>Candiotti</td>
+					</tr>
+					<tr>
+						<td>Diseño Web</td>
+						<td>0123041351</td>
+						<td>Candiotti</td>
+					</tr>
+					<tr>
+						<td>Diseño Web</td>
+						<td>0123041351</td>
+						<td>Candiotti</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Carga de archivos JavaScript (por recomendación se carga al final del documento, antes de q cierre el body)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
